@@ -29,7 +29,7 @@ Use the uvicorn command to run your FastAPI application:
 
 css
 Copy code
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn main:app --reload
 Replace main with your Python file name (without the .py extension) and app with the name of your FastAPI application instance.
 
 The --host and --port options specify the host and port on which your application will run.
