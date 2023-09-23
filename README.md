@@ -61,5 +61,7 @@ To run this application, save it in a file (e.g., main.py) and run:
 
 bash
 Copy code
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn main:app --reload
 Your FastAPI application will be available at http://localhost:8000 by default. You can define more complex routes, request handling, and data models as needed for your specific API.
+
+Hint: Try using Anaconda prompt and use the same location to store these files it will be working 100%.
