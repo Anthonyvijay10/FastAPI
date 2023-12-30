@@ -3,7 +3,7 @@ It predicts the survival of a person in titanic dataset
 
 PROCEDURE TO RUN THE FAST API:
 
-##1. Install FastAPI and a Web Server:
+#1. Install FastAPI and a Web Server:
 
 First, make sure you have Python installed on your system.
 
@@ -16,14 +16,14 @@ Additionally, you'll need a web server. Uvicorn is a popular ASGI server recomme
 Copy code
 pip install uvicorn
 
-##2. Create a FastAPI Application:
+#2. Create a FastAPI Application:
 
 Create a Python file (e.g., main.py) where you'll define your FastAPI application.
-##3. Define Your API Endpoints:
+#3. Define Your API Endpoints:
 
 Use FastAPI decorators like @app.get() or @app.post() to define your API endpoints.
 Define functions for each endpoint that specify the route, request parameters, request body, and response model.
-##4. Run the Application with Uvicorn:
+#4. Run the Application with Uvicorn:
 
 Use the uvicorn command to run your FastAPI application:
 
@@ -36,7 +36,7 @@ The --host and --port options specify the host and port on which your applicatio
 
 The --reload option enables automatic code reloading during development.
 
-##5. Access Your API:
+#5. Access Your API:
 
 Once the application is running, you can access your API in a web browser or use tools like curl or Postman to make HTTP requests to the defined endpoints.
 
