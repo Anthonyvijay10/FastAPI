@@ -19,4 +19,6 @@ python Copy code from fastapi import FastAPI
 app = FastAPI()
 @app.get("/") def read_root(): return {"message": "Hello, FastAPI!"} To run this application, save it in a file (e.g., main.py) and run:
 bash Copy code uvicorn main:app --reload Your FastAPI application will be available at http://localhost:8000 by default. You can define more complex routes, request handling, and data models as needed for your specific API.
-Hint: Try using the Anaconda prompt and save all these files in the same location.
+
+## Hint:
+Try using the Anaconda prompt and save all these files in the same location.
